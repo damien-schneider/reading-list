@@ -18,6 +18,7 @@ nav {
   color: #fff;
   display: flex;
   align-items: center;
+  border-radius: 15px;
 }
 nav h1 {
   margin: 0;
@@ -39,6 +40,7 @@ nav a {
   padding: 10px;
   background: #fff;
   margin: 10px 0;
+  border-radius: 10px;
 }
 label, label span {
   display: block;
