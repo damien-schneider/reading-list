@@ -20,6 +20,7 @@ export default function BookList({ books }) {
             <img 
               onClick={() => handleClick(book.id)}
               src={delete_fill0} 
+              alt='delete icon to delete book'
               onMouseEnter={e => e.currentTarget.src = delete_fill1}
               onMouseLeave={e => e.currentTarget.src = delete_fill0}
               style={{width: '20px', height: '20px', marginLeft: '10px', display: 'inline-block', float: 'right', cursor: 'pointer'}}
